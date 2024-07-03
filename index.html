@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <img src="img/pp.JPG" alt="Slack Profile Picture" data-test-id="profile-picture">
+            <h1 data-test-id="slackDisplayName">Fayfay</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#goals" data-test-id="goals-link">Goals</a></li>
+                <li><a href="#links" data-test-id="links-link">Links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="goals">
+            <h2>My Tech Goals for the Next Two Years:</h2>
+            <ul>
+                <li>Learn and master React.js</li>
+                <li>Contribute to open-source projects</li>
+                <li>Build a portfolio with diverse projects</li>
+                <li>Improve my CSS and design skills</li>
+                <li>Stay updated with the latest trends in frontend development</li>
+            </ul>
+        </section>
+
+        <section id="personal-info">
+            <h2>Personal Info</h2>
+            <p data-test-id="currentTimeUTC">Current Time(UTC): <span id="current-time"></span></p>
+            <p data-test-id="currentDay">Current Day: <span id="current-day"></span></p>
+            <p data-test-id="slackEmail">Slack Email: favouromos002@gmail.com</p>
+        </section>
+        
+        <section id="links">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://hng.tech/learn" target="_blank" data-test-id="hngLink">HNG TECH</a></li>
+                <li><a href="https://keyword.dog" target="_blank" data-test-id="keywordLink">Keyword Dog</a></li>
+                <li><a href="https://scrapeanyweb.site" target="_blank" data-test-id="scrapeanyweb">Scrape Any Web</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Favour Omorotionmwan. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
